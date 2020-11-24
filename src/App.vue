@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { ref, defineComponent, watchEffect, watch, computed } from "vue";
 import { version } from "./../package.json";
 

@@ -3,10 +3,10 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import App from "./App.vue";
 import "./index.css";
 import { version } from "./../package.json";
-import Landing from "./pages/Landing.vue";
+import LandingPage from "./pages/LandingPage.vue";
 
 /** @type {import("vue-router").RouteRecordRaw[]} */
-const routes = [{ path: "/", component: Landing }];
+const routes = [{ path: "/", component: LandingPage }];
 
 if (import.meta.env.PROD) {
   console.log(`${name} - ${version}`);

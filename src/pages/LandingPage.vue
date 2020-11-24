@@ -1,7 +1,9 @@
 <template>
   <h1>It's dangerous to go alone!</h1>
-
-  <!-- TODO: Form -->
+  <h1>
+    <a href="https://tuwien.hypedlabs.wtf/auth/discord">Take this</a>
+    <span class="explanation-text">Join the Discord Server</span>
+  </h1>
 </template>
 
 <script lang="ts">
@@ -18,3 +20,7 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+a:hover {
+}
+</style>
