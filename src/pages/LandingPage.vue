@@ -1,7 +1,7 @@
 <template>
   <h1>It's dangerous to go alone!</h1>
   <h1>
-    <a href="https://tuwien.hypedlabs.wtf/auth/discord" class="join-link"
+    <a href="https://tu-discord.xyz/" class="join-link"
       >Take this</a
     >
     <span class="explanation-text">Join the Discord Server</span>
